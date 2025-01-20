@@ -1,0 +1,97 @@
+.gallery {
+    margin: 60px 60px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.project-box {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    /* transition: transform .2s ease; */
+}
+
+/* .project-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+} */
+
+.project-image {
+    height: 200px;  
+    width: 200px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    visibility: visible;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#plus-image {
+    height: 200px;  
+    width: 200px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    visibility: visible;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-icon {
+    font-size: 64px;
+}
+
+.project-title {  
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+    visibility: visible;
+}
+
+.project-image-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#parent-click {
+    height:100vh;
+}
+
+.context-button {
+    font: inherit;
+    border: 0;
+    padding: 5px 30px 5px 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-decoration: unset;
+    color: #000;
+    font-weight: 500;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+
+.context-button:hover {
+    cursor: pointer;
+    color: #4b00ff;
+    background:#f1f3f7;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+#trash:hover {
+    color: red;
+}

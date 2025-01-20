@@ -1,0 +1,58 @@
+.metric-tab {
+    padding: 5% 5%;
+    gap: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightgray; */
+}
+
+.clarity::-webkit-progress-bar {
+    border: 1px gray solid;
+    background-color: #eeeeeee5;
+    border-radius: 10px;
+}
+
+.clarity::-webkit-progress-value {
+    border-radius: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    background: rgb(88, 183, 221);
+}
+
+.creativity::-webkit-progress-bar {
+    border: 1px gray solid;
+    background-color: #eeeeeee5;
+    border-radius: 10px;
+}
+
+.creativity::-webkit-progress-value {
+    border-radius: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    background: rgb(224, 175, 15);
+}
+
+.keyword::-webkit-progress-bar {
+    border: 1px gray solid;
+    background-color: #eeeeeee5;
+    border-radius: 10px;
+}
+
+.keyword::-webkit-progress-value {
+    border-radius: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    background: rgb(172, 104, 228);
+}
+
+.clarity {
+    border-radius: 10px;
+}
+
+.creativity {
+    border-radius: 10px;
+}
+
+.keyword {
+    border-radius: 10px;
+}

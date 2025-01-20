@@ -1,0 +1,35 @@
+.timeline {
+    margin-top: 50px;
+}
+
+.left-card {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 450px;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-name {
+    width: 300px;
+    font-size: large;
+}
+/* .timeline-button {
+    padding: 0;
+    width: auto;
+    text-transform: none;
+    text-align: left;
+    justify-content: flex-start;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+} */
+/* .timeline-button:hover {
+    color: #1976d2
+}
+.timeline-button.selected {
+    color: #1976d2
+} */
